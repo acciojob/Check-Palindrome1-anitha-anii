@@ -1,5 +1,5 @@
 // complete the given function
-let String="race a car";
+
 function palindrome(str){
   str.replace(/\s/g, "");
   let i=0;
@@ -13,5 +13,5 @@ function palindrome(str){
 		}
 	return false;
 }
-console.log(palindrome(String));
+
 module.exports = palindrome
